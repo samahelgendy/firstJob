@@ -1,0 +1,210 @@
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+.navbar{
+    background-color: rgb(8, 8, 96) !important;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    
+}
+.navbar a{
+    width: 50px;
+    height: 50px;
+}
+.navbar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation: trans 5s infinite;
+}
+@keyframes trans {
+    0%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
+.Btnstart.btn1{
+    background-color: white !important;
+    height: 40px;
+    position: relative;
+    top: 5px;
+}
+.Btnstart.btn1:hover{
+    background-color: rgba(249, 249, 249, 0.374) !important;
+}
+.Btnstart.btn1 a{
+    color: rgb(8, 8, 96) !important;
+    font-size: 20px;
+}
+.Btnstart.btn1 a:hover{
+    color: white !important;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.image{
+    height: 100vh;
+}
+.carousel-caption{
+    position: absolute;
+    top: 100px;
+    right: 10%;
+}
+.carousel-caption h5{
+    color: rgb(8, 8, 96) !important;
+    font-weight: bold;
+    font-size: 33px;
+    position: absolute;
+    right: 0%;
+    top: -5%;
+    margin-top: 30px;
+}
+
+.carousel-caption p{
+    position: relative;
+    font-size: 27px;
+    background-color: rgba(255, 255, 255, 0.287);
+    color: white !important;
+    width: 300px;
+    height: 300px;
+    padding: 20px ;
+    margin-top: 60px;
+    
+}
+
+
+@media (max-width:578px) {
+    .carousel-caption h5 {
+        font-size: 27px;
+    }
+    .carousel-caption p{
+        font-size: 23px;
+        width: 300px;
+        height: 220px;
+        padding: 10px ;
+    }
+}
+.carousel-caption span{
+    position: relative;
+    display: inline-block;
+}
+.icon{
+    position: absolute;
+    bottom: 50px;
+    right: 15%;
+}
+
+.icon .fa-sharp{
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(8, 8, 96);
+    cursor: pointer;
+}
+.Btnstart{
+    border: none;
+    border-radius: 50px;
+    padding: 5px 15px;
+    background-color: rgb(8, 8, 96);
+    transition: 0.9s;
+
+}
+
+.Btnstart:hover{  
+    background-color: rgba(8, 8, 96, 0.753);
+}
+.Btnstart a{
+    text-decoration: none;
+    color: white;
+}
+
+.pop-over{
+    position: fixed;
+    z-index: 1000;
+    width: 60%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+
+.my-button{
+    position: relative;
+    top: -10px;
+    right: -10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 100000;
+}
+.pop-over .vid{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+footer{
+    background-color: rgb(8, 8, 96);
+    color: white;
+    padding: 30px 0;
+}
+
+footer .row{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+footer .pay , footer .phone , footer .email{
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer .fa-brands , footer .fa-solid{
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+footer .fa-brands:hover , footer .fa-solid:hover{
+    color: rgb(226, 226, 252);
+}
+
+footer .fa-phone{
+    font-size: 18px !important;
+}
+
+.email .email_1 , .email .email_2{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.email a{
+    text-decoration: none;
+    color: white;
+}
+.email .fa-envelope{
+    font-size: 18px;
+}
+
